@@ -1,6 +1,10 @@
 # Build AWS Proxy Response
 A module to build response for 'AWS Proxy' type of response.
 
+## System requirements
+
+  - This module was developed in [version 8.10](https://nodejs.org/en/blog/release/v8.10.0/) of [Node.js](https://nodejs.org/en/), we recommend that you install it using [Node Version Manager (`nvm`)](https://github.com/creationix/nvm);
+
 ## Installation
 
 This section is about how to add this into your **package.json** file.
@@ -35,11 +39,6 @@ exports.handler = (event, context, callback) => {
   return callback(null, proxyResponse);
 };
 ```
-
-## System requirements
-
-  - [Node.js - 8.10](https://nodejs.org/en/), we recommend that you install it using
-    [Node Version Manager (`nvm`)](https://github.com/creationix/nvm);
 
 ## How to Test
 
