@@ -21,6 +21,7 @@ You can also add the dependency manually and then run ```npm install``` command 
   "build-proxy-response": "git@github.com:SunsetRiders/build-proxy-response.git"
 }
  ```
+ 
 ## Usage
 
 In order to build a AWS Proxy response for your Lambda function, you'll have to insert the code:
@@ -35,9 +36,7 @@ exports.handler = (event, context, callback) => {
 };
 ```
 
-## Getting Started
-
-### System requirements
+## System requirements
 
   - [Node.js - 8.10](https://nodejs.org/en/), we recommend that you install it using
     [Node Version Manager (`nvm`)](https://github.com/creationix/nvm);
