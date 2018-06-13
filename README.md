@@ -1,5 +1,5 @@
 # Build AWS Proxy Response
-A module to build response for 'AWS Proxy' type of response.
+A module to build 'AWS Proxy' responses for Lambda functions.
 
 ## System requirements
 
