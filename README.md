@@ -28,9 +28,11 @@ In order to build a AWS Proxy response for your Lambda function, you'll have to 
 ```javascript
 const buildProxyResponse = require('build-proxy-response');
 
-...
-
-const proxyResponse = buildProxyResponse(statusCode, bodyObject);
+exports.handler = (event, context, callback) => {
+  // ...
+  const proxyResponse = buildProxyResponse(statusCode, bodyObject);
+  return callback(null, proxyResponse);
+};
 ```
 
 ## Getting Started
