@@ -1,0 +1,36 @@
+{
+  "name": "build-proxy-response",
+  "version": "1.0.0",
+  "description": "A response builder for AWS Proxy type of response",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:unit",
+    "test:unit": "mocha --opts ./test/mocha.opts ./tests/unit/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunsetRiders/build-proxy-response.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "proxy",
+    "response"
+  ],
+  "author": "Daitan Group",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunsetRiders/build-proxy-response/issues"
+  },
+  "homepage": "https://github.com/SunsetRiders/build-proxy-response#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.6.0",
+    "eslint-config-sunset-nodejs": "git+https://git@github.com/SunsetRiders/eslint-config-sunset-nodejs.git",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "mocha": "^5.2.0"
+  }
+}
