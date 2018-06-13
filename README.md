@@ -9,7 +9,7 @@ This section is about how to add this into your **package.json** file.
 
 You can install the module from the terminal.
 
-```
+```shell-script
 $ npm i --save git+https://github.com/SunsetRiders/build-proxy-response.git
 ```
 
@@ -21,3 +21,18 @@ You can also add the dependency manually and then run ```npm install``` command 
   "build-proxy-response": "git@github.com:SunsetRiders/build-proxy-response.git"
 }
  ```
+
+## Getting Started
+
+### System requirements
+
+  - [Node.js - 8.10](https://nodejs.org/en/), we recommend that you install it using
+    [Node Version Manager (`nvm`)](https://github.com/creationix/nvm);
+
+## How to test
+
+You can test it locally by simply typing this command in the terminal (after cloning the repository):
+
+```shell-script
+$ npm test
+```
