@@ -1,7 +1,7 @@
 # Build AWS Proxy Response
 A module to build response for 'AWS Proxy' type of response.
 
-## Adding the module to the project
+## Installation
 
 This section is about how to add this into your **package.json** file.
 
@@ -21,6 +21,17 @@ You can also add the dependency manually and then run ```npm install``` command 
   "build-proxy-response": "git@github.com:SunsetRiders/build-proxy-response.git"
 }
  ```
+## Usage
+
+In order to build a AWS Proxy response for your Lambda function, you'll have to insert the code:
+
+```javascript
+const buildProxyResponse = require('build-proxy-response');
+
+...
+
+const proxyResponse = buildProxyResponse(statusCode, bodyObject);
+```
 
 ## Getting Started
 
@@ -29,7 +40,7 @@ You can also add the dependency manually and then run ```npm install``` command 
   - [Node.js - 8.10](https://nodejs.org/en/), we recommend that you install it using
     [Node Version Manager (`nvm`)](https://github.com/creationix/nvm);
 
-## How to test
+## How to Test
 
 You can test it locally by simply typing this command in the terminal (after cloning the repository):
 
