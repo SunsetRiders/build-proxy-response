@@ -10,7 +10,7 @@ describe('Unit Tests for index.js', () => {
       it('should return an object', () => {
         response.should.be.an('object');
       });
-      it("should not have 'statusCode' property", () => {
+      it("should return 500 in 'statusCode' property", () => {
         response.statusCode.should.be.equal(500);
       });
       it("should return empty string in the 'body' property", () => {
