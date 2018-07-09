@@ -3,7 +3,7 @@ A module to build 'AWS Proxy' responses for Lambda functions.
 
 ## System requirements
 
-This module was developed in [version 8.10](https://nodejs.org/en/blog/release/v8.10.0/) of [Node.js](https://nodejs.org/en/), we recommend that you install it using [Node Version Manager (`nvm`)](https://github.com/creationix/nvm);
+This module was developed in [version 10.6](https://nodejs.org/en/blog/release/v10.6.0/) of [Node.js](https://nodejs.org/en/), we recommend that you install it using [Node Version Manager (`nvm`)](https://github.com/creationix/nvm);
 
 ## Installation
 
