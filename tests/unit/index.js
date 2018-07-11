@@ -30,8 +30,7 @@ describe('Unit Tests for index.js', () => {
     });
     
     context('without body', () => {
-      const anyStatusCode = 777;
-      const response = buildProxyResponse(anyStatusCode);
+      const response = buildProxyResponse();
       it('should return an empty string as the body', () => {
         response.body.should.be.empty;
       });
@@ -39,7 +38,7 @@ describe('Unit Tests for index.js', () => {
 
     context('with invalid body', () => {
       const invalidBody = null;
-      const response = buildProxyResponse(undefined, invalidBody);
+      const response = buildProxyResponse(invalidBody);
       const stringifiedResponse = JSON.stringify(invalidBody);
       it('should return the invalid body stringified', () => {
         response.body.should.be.a('string');

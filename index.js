@@ -1,4 +1,4 @@
-const buildProxyResponse = (statusCode = 500, body, isBase64Encoded = false) => {
+const buildProxyResponse = (body, statusCode = 500, isBase64Encoded = false) => {
   return {
     statusCode,
     headers: {
