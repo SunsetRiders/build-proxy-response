@@ -13,13 +13,13 @@ This section is about how to add this into your **package.json** file.
 
 You can install the module from the terminal.
 
-```shell-script
+```shell
 $ npm i --save git+https://github.com/SunsetRiders/build-proxy-response.git
 ```
 
 You can also add the dependency manually and then run ```npm install``` command to place it inside the **node_modules** folder.
 
-```javascript
+```json
 "dependencies": {
   ...
   "build-proxy-response": "git@github.com:SunsetRiders/build-proxy-response.git"
@@ -44,6 +44,6 @@ exports.handler = (event, context, callback) => {
 
 You can test it locally by simply typing this command in the terminal (after cloning the repository):
 
-```shell-script
+```shell
 $ npm test
 ```
